@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="2" name="ToJson.StashToJsonTest" time="0.01" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\bin"/>
+    <property name="java.vm.version" value="25.73-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\hj\Desktop\testing\StashTabParser"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\hj\Desktop\testing\StashTabParser"/>
+    <property name="java.runtime.version" value="1.8.0_73-b02"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\hj\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.1\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\Apache\Maven\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Work account\Desktop\qtjambi-community-4.8.7-win64-msvc2013\lib;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Apache\Maven\bin;C:\Users\Work account\AppData\Local\Programs\Python\Python36;C:\Program Files\PuTTY\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\hj\.lein\bin;C:\Program Files\Apache\Maven\bin;."/>
+    <property name="maven.conf" value="C:\Program Files\Apache\Maven\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="library.jansi.path" value="C:\Program Files\Apache\Maven\bin\..\lib\jansi-native\windows64"/>
+    <property name="user.home" value="C:\Users\hj"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="hj"/>
+    <property name="java.class.path" value="C:\Program Files\Apache\Maven\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_73\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.1\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_73"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_73\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\Apache\Maven\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="ToJson.StashToJsonTest" name="testMain" time="0.01">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at ToJson.StashToJsonTest.testMain(StashToJsonTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>main
+{&quot;name&quot;:&quot;Pandemonium Needle6tgg&quot;,&quot;typeLine&quot;:&quot;Corsair Sword&quot;,&quot;fullName&quot;:&quot;Pandemonium Needle6tggCorsair Sword&quot;,&quot;corrupted&quot;:false,&quot;abyssJewel&quot;:false,&quot;identified&quot;:true,&quot;support&quot;:false,&quot;shaper&quot;:false,&quot;elder&quot;:false,&quot;lockedToCharacter&quot;:false,&quot;raceReward&quot;:false,&quot;isRelic&quot;:false,&quot;implicitMods&quot;:[&quot;40% increased Global Accuracy Rating&quot;],&quot;explicitMods&quot;:[&quot;Adds 42 to 81 Fire Damage&quot;,&quot;Adds 39 to 83 Cold Damage&quot;,&quot;Adds 3 to 72 Lightning Damage&quot;,&quot;16% increased Critical Strike Chance&quot;,&quot;31% increased Stun Duration on Enemies&quot;,&quot;10% increased Poison Duration&quot;],&quot;requirements&quot;:[{&quot;name&quot;:&quot;Level&quot;,&quot;displayMode&quot;:0,&quot;values&quot;:[[&quot;60&quot;,0.0]],&quot;type&quot;:0,&quot;progress&quot;:0.0},{&quot;name&quot;:&quot;Str&quot;,&quot;displayMode&quot;:1,&quot;values&quot;:[[&quot;81&quot;,0.0]],&quot;type&quot;:0,&quot;progress&quot;:0.0},{&quot;name&quot;:&quot;Dex&quot;,&quot;displayMode&quot;:1,&quot;values&quot;:[[&quot;117&quot;,0.0]],&quot;type&quot;:0,&quot;progress&quot;:0.0}],&quot;properties&quot;:[{&quot;name&quot;:&quot;One Handed Sword&quot;,&quot;displayMode&quot;:0,&quot;values&quot;:[],&quot;type&quot;:0,&quot;progress&quot;:0.0},{&quot;name&quot;:&quot;Physical Damage&quot;,&quot;displayMode&quot;:0,&quot;values&quot;:[[&quot;20-80&quot;,0.0]],&quot;type&quot;:9,&quot;progress&quot;:0.0},{&quot;name&quot;:&quot;Elemental Damage&quot;,&quot;displayMode&quot;:0,&quot;values&quot;:[[&quot;42-81&quot;,4.0],[&quot;39-83&quot;,5.0],[&quot;3-72&quot;,6.0]],&quot;type&quot;:10,&quot;progress&quot;:0.0},{&quot;name&quot;:&quot;Critical Strike Chance&quot;,&quot;displayMode&quot;:0,&quot;values&quot;:[[&quot;5.80%&quot;,1.0]],&quot;type&quot;:12,&quot;progress&quot;:0.0},{&quot;name&quot;:&quot;Attacks per Second&quot;,&quot;displayMode&quot;:0,&quot;values&quot;:[[&quot;1.55&quot;,0.0]],&quot;type&quot;:13,&quot;progress&quot;:0.0},{&quot;name&quot;:&quot;Weapon Range&quot;,&quot;displayMode&quot;:0,&quot;values&quot;:[[&quot;9&quot;,0.0]],&quot;type&quot;:14,&quot;progress&quot;:0.0}],&quot;category&quot;:{&quot;weapons&quot;:[&quot;onesword&quot;]},&quot;icon&quot;:&quot;http://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword3.png?scale=1&amp;scaleIndex=0&amp;w=1&amp;h=3&amp;v=0bf4b174a0c80b2fd80a12026ed04a05&quot;,&quot;id&quot;:&quot;302bba2bd3aeb4763ec6343f1fc4994a63606090e71500818d59129975965073&quot;,&quot;inventoryId&quot;:&quot;Stash28&quot;,&quot;league&quot;:&quot;Standard&quot;,&quot;ilvl&quot;:80,&quot;frameType&quot;:2,&quot;stackSize&quot;:0,&quot;talismanTier&quot;:0,&quot;w&quot;:1,&quot;x&quot;:2,&quot;y&quot;:5,&quot;h&quot;:3,&quot;accountName&quot;:&quot;5a4oK&quot;,&quot;lastCharacterName&quot;:&quot;temniypoputchik_ts&quot;,&quot;aps&quot;:1.55,&quot;critChance&quot;:5.8,&quot;weaponRange&quot;:9,&quot;energyShield&quot;:0,&quot;armour&quot;:0,&quot;evasion&quot;:0,&quot;socketCount&quot;:3,&quot;maxLinks&quot;:2,&quot;redSocketCount&quot;:1,&quot;greenSocketCount&quot;:2,&quot;blueSocketCount&quot;:0,&quot;whiteSocketCount&quot;:0,&quot;quality&quot;:0,&quot;craftedModsCount&quot;:0,&quot;categoryType&quot;:&quot;weapons&quot;,&quot;categorySpecific&quot;:&quot;onesword&quot;,&quot;adjustedPrice&quot;:0.0,&quot;requiredLevel&quot;:&quot;60&quot;,&quot;requiredStr&quot;:&quot;81&quot;,&quot;requiredDex&quot;:&quot;117&quot;,&quot;##% increased Global Accuracy Rating&quot;:&quot;40&quot;,&quot;Adds ## to ## Fire Damage&quot;:&quot;61.5&quot;,&quot;Adds ## to ## Cold Damage&quot;:&quot;61.0&quot;,&quot;Adds ## to ## Lightning Damage&quot;:&quot;37.5&quot;,&quot;##% increased Critical Strike Chance&quot;:&quot;16&quot;,&quot;##% increased Stun Duration on Enemies&quot;:&quot;31&quot;,&quot;##% increased Poison Duration&quot;:&quot;10&quot;,&quot;Total Elemental Damage to Attacks&quot;:&quot;248.0&quot;,&quot;Total Fire Damage to Attacks&quot;:&quot;95.325&quot;,&quot;Total Physical Damage to Attacks&quot;:&quot;77.5&quot;,&quot;Total Damage to Attacks&quot;:&quot;325.5&quot;}
+</system-out>
+  </testcase>
+  <testcase classname="ToJson.StashToJsonTest" name="testFileToInputStream" time="0">
+    <failure message="expected:&lt;null&gt; but was:&lt;java.io.FileInputStream@564fabc8&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;null&gt; but was:&lt;java.io.FileInputStream@564fabc8&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at ToJson.StashToJsonTest.testFileToInputStream(StashToJsonTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>fileToInputStream
+</system-out>
+  </testcase>
+</testsuite>
